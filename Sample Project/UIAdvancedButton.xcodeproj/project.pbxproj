@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0477FA5517CF48420054FAB2 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0477FA5617CF48420054FAB2 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				0477FA5917CF488D0054FAB2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0477FA1217CDDF3A0054FAB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0477FA1117CDDF3A0054FAB2 /* UIKit.framework */; };
+		0477FA1417CDDF3A0054FAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0477FA1317CDDF3A0054FAB2 /* Foundation.framework */; };
+		0477FA1617CDDF3A0054FAB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0477FA1517CDDF3A0054FAB2 /* CoreGraphics.framework */; };
+		0477FA1C17CDDF3A0054FAB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0477FA1A17CDDF3A0054FAB2 /* InfoPlist.strings */; };
+		0477FA1E17CDDF3A0054FAB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477FA1D17CDDF3A0054FAB2 /* main.m */; };
+		0477FA2217CDDF3B0054FAB2 /* ABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477FA2117CDDF3B0054FAB2 /* ABAppDelegate.m */; };
+		0477FA2417CDDF3B0054FAB2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0477FA2317CDDF3B0054FAB2 /* Default.png */; };
+		0477FA2617CDDF3B0054FAB2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0477FA2517CDDF3B0054FAB2 /* Default@2x.png */; };
+		0477FA2817CDDF3B0054FAB2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0477FA2717CDDF3B0054FAB2 /* Default-568h@2x.png */; };
+		0477FA2B17CDDF3B0054FAB2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477FA2917CDDF3B0054FAB2 /* MainStoryboard_iPhone.storyboard */; };
+		0477FA2E17CDDF3B0054FAB2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477FA2C17CDDF3B0054FAB2 /* MainStoryboard_iPad.storyboard */; };
+		0477FA3117CDDF3B0054FAB2 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477FA3017CDDF3B0054FAB2 /* ABViewController.m */; };
+		0477FA3917CDDF3B0054FAB2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0477FA3817CDDF3B0054FAB2 /* SenTestingKit.framework */; };
+		0477FA3A17CDDF3B0054FAB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0477FA1117CDDF3A0054FAB2 /* UIKit.framework */; };
+		0477FA3B17CDDF3B0054FAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0477FA1317CDDF3A0054FAB2 /* Foundation.framework */; };
+		0477FA4317CDDF3B0054FAB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0477FA4117CDDF3B0054FAB2 /* InfoPlist.strings */; };
+		0477FA4617CDDF3B0054FAB2 /* UIAdvancedButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477FA4517CDDF3B0054FAB2 /* UIAdvancedButtonTests.m */; };
+		0477FA5217CDDF570054FAB2 /* UIAdvancedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477FA5117CDDF570054FAB2 /* UIAdvancedButton.m */; };
+		0477FA5417CE00F60054FAB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0477FA5317CE00F60054FAB2 /* QuartzCore.framework */; };
+		0477FA5C17CF74E50054FAB2 /* ABSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477FA5B17CF74E50054FAB2 /* ABSecondViewController.m */; };
+		0477FA5F17D072400054FAB2 /* ABThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477FA5E17D072400054FAB2 /* ABThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0477FA3C17CDDF3B0054FAB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0477FA0617CDDF3A0054FAB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0477FA0D17CDDF3A0054FAB2;
+			remoteInfo = UIAdvancedButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0477FA0E17CDDF3A0054FAB2 /* UIAdvancedButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAdvancedButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0477FA1117CDDF3A0054FAB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0477FA1317CDDF3A0054FAB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0477FA1517CDDF3A0054FAB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0477FA1917CDDF3A0054FAB2 /* UIAdvancedButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAdvancedButton-Info.plist"; sourceTree = "<group>"; };
+		0477FA1B17CDDF3A0054FAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0477FA1D17CDDF3A0054FAB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0477FA1F17CDDF3B0054FAB2 /* UIAdvancedButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAdvancedButton-Prefix.pch"; sourceTree = "<group>"; };
+		0477FA2017CDDF3B0054FAB2 /* ABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAppDelegate.h; sourceTree = "<group>"; };
+		0477FA2117CDDF3B0054FAB2 /* ABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAppDelegate.m; sourceTree = "<group>"; };
+		0477FA2317CDDF3B0054FAB2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0477FA2517CDDF3B0054FAB2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0477FA2717CDDF3B0054FAB2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0477FA2A17CDDF3B0054FAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0477FA2D17CDDF3B0054FAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0477FA2F17CDDF3B0054FAB2 /* ABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
+		0477FA3017CDDF3B0054FAB2 /* ABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABViewController.m; sourceTree = "<group>"; };
+		0477FA3717CDDF3B0054FAB2 /* UIAdvancedButtonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAdvancedButtonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0477FA3817CDDF3B0054FAB2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0477FA4017CDDF3B0054FAB2 /* UIAdvancedButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAdvancedButtonTests-Info.plist"; sourceTree = "<group>"; };
+		0477FA4217CDDF3B0054FAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0477FA4417CDDF3B0054FAB2 /* UIAdvancedButtonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAdvancedButtonTests.h; sourceTree = "<group>"; };
+		0477FA4517CDDF3B0054FAB2 /* UIAdvancedButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAdvancedButtonTests.m; sourceTree = "<group>"; };
+		0477FA5017CDDF570054FAB2 /* UIAdvancedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAdvancedButton.h; sourceTree = "<group>"; };
+		0477FA5117CDDF570054FAB2 /* UIAdvancedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAdvancedButton.m; sourceTree = "<group>"; };
+		0477FA5317CE00F60054FAB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0477FA5A17CF74E50054FAB2 /* ABSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSecondViewController.h; sourceTree = "<group>"; };
+		0477FA5B17CF74E50054FAB2 /* ABSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSecondViewController.m; sourceTree = "<group>"; };
+		0477FA5D17D072400054FAB2 /* ABThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABThirdViewController.h; sourceTree = "<group>"; };
+		0477FA5E17D072400054FAB2 /* ABThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0477FA0B17CDDF3A0054FAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477FA5417CE00F60054FAB2 /* QuartzCore.framework in Frameworks */,
+				0477FA1217CDDF3A0054FAB2 /* UIKit.framework in Frameworks */,
+				0477FA1417CDDF3A0054FAB2 /* Foundation.framework in Frameworks */,
+				0477FA1617CDDF3A0054FAB2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477FA3317CDDF3B0054FAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477FA3917CDDF3B0054FAB2 /* SenTestingKit.framework in Frameworks */,
+				0477FA3A17CDDF3B0054FAB2 /* UIKit.framework in Frameworks */,
+				0477FA3B17CDDF3B0054FAB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0477FA0517CDDF3A0054FAB2 = {
+			isa = PBXGroup;
+			children = (
+				0477FA5317CE00F60054FAB2 /* QuartzCore.framework */,
+				0477FA1717CDDF3A0054FAB2 /* UIAdvancedButton */,
+				0477FA3E17CDDF3B0054FAB2 /* UIAdvancedButtonTests */,
+				0477FA1017CDDF3A0054FAB2 /* Frameworks */,
+				0477FA0F17CDDF3A0054FAB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0477FA0F17CDDF3A0054FAB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0477FA0E17CDDF3A0054FAB2 /* UIAdvancedButton.app */,
+				0477FA3717CDDF3B0054FAB2 /* UIAdvancedButtonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0477FA1017CDDF3A0054FAB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0477FA1117CDDF3A0054FAB2 /* UIKit.framework */,
+				0477FA1317CDDF3A0054FAB2 /* Foundation.framework */,
+				0477FA1517CDDF3A0054FAB2 /* CoreGraphics.framework */,
+				0477FA3817CDDF3B0054FAB2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0477FA1717CDDF3A0054FAB2 /* UIAdvancedButton */ = {
+			isa = PBXGroup;
+			children = (
+				0477FA4F17CDDF570054FAB2 /* Class */,
+				0477FA2017CDDF3B0054FAB2 /* ABAppDelegate.h */,
+				0477FA2117CDDF3B0054FAB2 /* ABAppDelegate.m */,
+				0477FA2917CDDF3B0054FAB2 /* MainStoryboard_iPhone.storyboard */,
+				0477FA2C17CDDF3B0054FAB2 /* MainStoryboard_iPad.storyboard */,
+				0477FA2F17CDDF3B0054FAB2 /* ABViewController.h */,
+				0477FA3017CDDF3B0054FAB2 /* ABViewController.m */,
+				0477FA1817CDDF3A0054FAB2 /* Supporting Files */,
+				0477FA5A17CF74E50054FAB2 /* ABSecondViewController.h */,
+				0477FA5B17CF74E50054FAB2 /* ABSecondViewController.m */,
+				0477FA5D17D072400054FAB2 /* ABThirdViewController.h */,
+				0477FA5E17D072400054FAB2 /* ABThirdViewController.m */,
+			);
+			path = UIAdvancedButton;
+			sourceTree = "<group>";
+		};
+		0477FA1817CDDF3A0054FAB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0477FA1917CDDF3A0054FAB2 /* UIAdvancedButton-Info.plist */,
+				0477FA1A17CDDF3A0054FAB2 /* InfoPlist.strings */,
+				0477FA1D17CDDF3A0054FAB2 /* main.m */,
+				0477FA1F17CDDF3B0054FAB2 /* UIAdvancedButton-Prefix.pch */,
+				0477FA2317CDDF3B0054FAB2 /* Default.png */,
+				0477FA2517CDDF3B0054FAB2 /* Default@2x.png */,
+				0477FA2717CDDF3B0054FAB2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0477FA3E17CDDF3B0054FAB2 /* UIAdvancedButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0477FA4417CDDF3B0054FAB2 /* UIAdvancedButtonTests.h */,
+				0477FA4517CDDF3B0054FAB2 /* UIAdvancedButtonTests.m */,
+				0477FA3F17CDDF3B0054FAB2 /* Supporting Files */,
+			);
+			path = UIAdvancedButtonTests;
+			sourceTree = "<group>";
+		};
+		0477FA3F17CDDF3B0054FAB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0477FA4017CDDF3B0054FAB2 /* UIAdvancedButtonTests-Info.plist */,
+				0477FA4117CDDF3B0054FAB2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0477FA4F17CDDF570054FAB2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0477FA5017CDDF570054FAB2 /* UIAdvancedButton.h */,
+				0477FA5117CDDF570054FAB2 /* UIAdvancedButton.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0477FA0D17CDDF3A0054FAB2 /* UIAdvancedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0477FA4917CDDF3B0054FAB2 /* Build configuration list for PBXNativeTarget "UIAdvancedButton" */;
+			buildPhases = (
+				0477FA0A17CDDF3A0054FAB2 /* Sources */,
+				0477FA0B17CDDF3A0054FAB2 /* Frameworks */,
+				0477FA0C17CDDF3A0054FAB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIAdvancedButton;
+			productName = UIAdvancedButton;
+			productReference = 0477FA0E17CDDF3A0054FAB2 /* UIAdvancedButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0477FA3617CDDF3B0054FAB2 /* UIAdvancedButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0477FA4C17CDDF3B0054FAB2 /* Build configuration list for PBXNativeTarget "UIAdvancedButtonTests" */;
+			buildPhases = (
+				0477FA3217CDDF3B0054FAB2 /* Sources */,
+				0477FA3317CDDF3B0054FAB2 /* Frameworks */,
+				0477FA3417CDDF3B0054FAB2 /* Resources */,
+				0477FA3517CDDF3B0054FAB2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0477FA3D17CDDF3B0054FAB2 /* PBXTargetDependency */,
+			);
+			name = UIAdvancedButtonTests;
+			productName = UIAdvancedButtonTests;
+			productReference = 0477FA3717CDDF3B0054FAB2 /* UIAdvancedButtonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0477FA0617CDDF3A0054FAB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sksarts;
+			};
+			buildConfigurationList = 0477FA0917CDDF3A0054FAB2 /* Build configuration list for PBXProject "UIAdvancedButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0477FA0517CDDF3A0054FAB2;
+			productRefGroup = 0477FA0F17CDDF3A0054FAB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0477FA0D17CDDF3A0054FAB2 /* UIAdvancedButton */,
+				0477FA3617CDDF3B0054FAB2 /* UIAdvancedButtonTests */,
+				0477FA5517CF48420054FAB2 /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0477FA0C17CDDF3A0054FAB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477FA1C17CDDF3A0054FAB2 /* InfoPlist.strings in Resources */,
+				0477FA2417CDDF3B0054FAB2 /* Default.png in Resources */,
+				0477FA2617CDDF3B0054FAB2 /* Default@2x.png in Resources */,
+				0477FA2817CDDF3B0054FAB2 /* Default-568h@2x.png in Resources */,
+				0477FA2B17CDDF3B0054FAB2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				0477FA2E17CDDF3B0054FAB2 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477FA3417CDDF3B0054FAB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477FA4317CDDF3B0054FAB2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0477FA3517CDDF3B0054FAB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		0477FA5917CF488D0054FAB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"SKSArts\";\ncompanyID=\"com.SKSArts\";\ncompanyURL=\"http://sksarts.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0477FA0A17CDDF3A0054FAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477FA1E17CDDF3A0054FAB2 /* main.m in Sources */,
+				0477FA2217CDDF3B0054FAB2 /* ABAppDelegate.m in Sources */,
+				0477FA3117CDDF3B0054FAB2 /* ABViewController.m in Sources */,
+				0477FA5217CDDF570054FAB2 /* UIAdvancedButton.m in Sources */,
+				0477FA5C17CF74E50054FAB2 /* ABSecondViewController.m in Sources */,
+				0477FA5F17D072400054FAB2 /* ABThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477FA3217CDDF3B0054FAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477FA4617CDDF3B0054FAB2 /* UIAdvancedButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0477FA3D17CDDF3B0054FAB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0477FA0D17CDDF3A0054FAB2 /* UIAdvancedButton */;
+			targetProxy = 0477FA3C17CDDF3B0054FAB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0477FA1A17CDDF3A0054FAB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477FA1B17CDDF3A0054FAB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0477FA2917CDDF3B0054FAB2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477FA2A17CDDF3B0054FAB2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0477FA2C17CDDF3B0054FAB2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477FA2D17CDDF3B0054FAB2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0477FA4117CDDF3B0054FAB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477FA4217CDDF3B0054FAB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0477FA4717CDDF3B0054FAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0477FA4817CDDF3B0054FAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0477FA4A17CDDF3B0054FAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAdvancedButton/UIAdvancedButton-Prefix.pch";
+				INFOPLIST_FILE = "UIAdvancedButton/UIAdvancedButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0477FA4B17CDDF3B0054FAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAdvancedButton/UIAdvancedButton-Prefix.pch";
+				INFOPLIST_FILE = "UIAdvancedButton/UIAdvancedButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0477FA4D17CDDF3B0054FAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIAdvancedButton.app/UIAdvancedButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAdvancedButton/UIAdvancedButton-Prefix.pch";
+				INFOPLIST_FILE = "UIAdvancedButtonTests/UIAdvancedButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0477FA4E17CDDF3B0054FAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIAdvancedButton.app/UIAdvancedButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAdvancedButton/UIAdvancedButton-Prefix.pch";
+				INFOPLIST_FILE = "UIAdvancedButtonTests/UIAdvancedButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		0477FA5717CF48420054FAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0477FA5817CF48420054FAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0477FA0917CDDF3A0054FAB2 /* Build configuration list for PBXProject "UIAdvancedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477FA4717CDDF3B0054FAB2 /* Debug */,
+				0477FA4817CDDF3B0054FAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0477FA4917CDDF3B0054FAB2 /* Build configuration list for PBXNativeTarget "UIAdvancedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477FA4A17CDDF3B0054FAB2 /* Debug */,
+				0477FA4B17CDDF3B0054FAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0477FA4C17CDDF3B0054FAB2 /* Build configuration list for PBXNativeTarget "UIAdvancedButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477FA4D17CDDF3B0054FAB2 /* Debug */,
+				0477FA4E17CDDF3B0054FAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0477FA5617CF48420054FAB2 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0477FA5717CF48420054FAB2 /* Debug */,
+				0477FA5817CF48420054FAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0477FA0617CDDF3A0054FAB2 /* Project object */;
+}
